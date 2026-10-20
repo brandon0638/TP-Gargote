@@ -10,9 +10,9 @@ Avant de modifier une application, on la fait tourner et on la lit. Ce niveau ne
 
 Suivez la section *Installation* du `README.md`. Vous avez terminé quand :
 
-- [ ] <http://localhost:8080/api/plats> affiche du JSON ;
-- [ ] <http://localhost:5173> affiche l’ardoise avec les plats ;
-- [ ] vous avez passé une commande depuis l’onglet **Prendre une commande** et la retrouvez dans l’onglet **Commandes**.
+- [x] <http://localhost:8080/api/plats> affiche du JSON ;
+- [x] <http://localhost:5173> affiche l’ardoise avec les plats ;
+- [x] vous avez passé une commande depuis l’onglet **Prendre une commande** et la retrouvez dans l’onglet **Commandes**.
 
 ## 0.2 Lire le schéma relationnel
 
