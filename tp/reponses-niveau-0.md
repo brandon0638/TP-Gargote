@@ -9,3 +9,6 @@
 - commande_ligne(**id**,#id_commande,#id_plat,quantite,prix_unitaire)
 
 
+
+***2***) 
+Parce que si un jour la gargote decide de faire changer le prix d'un plat il pourra toujours voir l'historique des commandes dans commandes avec leur prix
