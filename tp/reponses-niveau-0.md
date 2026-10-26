@@ -20,3 +20,10 @@ Parce que si un jour la gargote decide de faire changer le prix d'un plat il pou
 
 Lorsqu'on supprime une ligne de la table commande alors la ligne que l'on veut supprimer est supprimer a cause de `ON DELETE CASCADE`
 
+
+***4***) Repere 3 donnees absurde
+
+- acceptation de l'insertion donnee negatif (prix)
+- acceptation de 2 plats de meme nom lors de insertion dans la carte
+- acceptation de donnee erone pour categorie par exemple j'ai insere coca cola avec comme categorie soupe et ca marche
+
