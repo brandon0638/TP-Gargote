@@ -27,3 +27,11 @@ Lorsqu'on supprime une ligne de la table commande alors la ligne que l'on veut s
 - acceptation de 2 plats de meme nom lors de insertion dans la carte
 - acceptation de donnee erone pour categorie par exemple j'ai insere coca cola avec comme categorie soupe et ca marche
 
+---
+
+**0.3 Interroger l’API à la main**
+
+
+***5***)
+
+Pour la requete `b` le code http est 201. C'est pas 200 parce que c'est une creation

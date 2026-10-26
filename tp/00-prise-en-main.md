@@ -33,14 +33,10 @@ Avec `curl` (ou Thunder Client), exécutez et notez **le code HTTP** et **la ré
 curl http://localhost:8080/api/plats?categorie=2
 
 # b) création d'un plat valide
-curl -X POST http://localhost:8080/api/plats \
-     -H "Content-Type: application/json" \
-     -d '{"nom":"Mofo gasy","prix":300,"id_categorie":1}'
+curl -i -X POST http://localhost:8080/api/plats -H "Content-Type: application/json" -d "{\"nom\":\"Mofo gasy\",\"prix\":300,\"id_categorie\":1}"
 
 # c) création d'un plat invalide
-curl -X POST http://localhost:8080/api/plats \
-     -H "Content-Type: application/json" \
-     -d '{"nom":"","prix":"cher"}'
+curl -X POST http://localhost:8080/api/plats -H "Content-Type: application/json" -d '{"nom":"","prix":"cher"}'
 
 # d) suppression d'un plat présent dans une commande
 curl -X DELETE http://localhost:8080/api/plats/2
