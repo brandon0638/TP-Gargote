@@ -39,7 +39,7 @@ curl -i -X POST http://localhost:8080/api/plats -H "Content-Type: application/js
 curl -X POST http://localhost:8080/api/plats -H "Content-Type: application/json" -d '{"nom":"","prix":"cher"}'
 
 # d) suppression d'un plat présent dans une commande
-curl -X DELETE http://localhost:8080/api/plats/2
+curl -i -X DELETE http://localhost:8080/api/plats/2
 
 # e) une commande qui n'existe pas
 curl http://localhost:8080/api/commandes/999

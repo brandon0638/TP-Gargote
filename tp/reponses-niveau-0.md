@@ -35,3 +35,12 @@ Lorsqu'on supprime une ligne de la table commande alors la ligne que l'on veut s
 ***5***)
 
 Pour la requete `b` le code http est 201. C'est pas 200 parce que c'est une creation
+
+***6***) 
+
+Pour la requete `d` la suppresion est bloque par PHP a cause de cette ligne
+
+```php
+return $this->erreur('Ce plat figure déjà dans des commandes, il ne peut pas être supprimé.', 409);
+```
+
