@@ -44,3 +44,11 @@ Pour la requete `d` la suppresion est bloque par PHP a cause de cette ligne
 return $this->erreur('Ce plat figure déjà dans des commandes, il ne peut pas être supprimé.', 409);
 ```
 
+***7***) Commande curl 
+
+
+```bash
+curl -i -X POST http://localhost:8080/api/commandes -H "Content-Type: application/json" -d "{\"numero_table\":6, \"lignes\": [{\"id_plat\":4, \"quantite\":2, \"prix_unitaire\":7000}, {\"id_plat\":10, \"quantite\":1, \"prix_unitaire\":1000}]}"
+```
+
+
